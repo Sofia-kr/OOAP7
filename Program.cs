@@ -8,10 +8,9 @@ class Program
         Calculator calculator = new Calculator();
         Invoker invoker = new Invoker();
 
-        Console.WriteLine("Простий калькулятор (патерн Command)");
         Console.WriteLine("Доступні операції: +, -, *, /");
-        Console.WriteLine("u - скасувати (undo)");
-        Console.WriteLine("r - повторити (redo)");
+        Console.WriteLine("u - скасувати ");
+        Console.WriteLine("r - повторити ");
         Console.WriteLine("q - вихід\n");
 
         while (true)
